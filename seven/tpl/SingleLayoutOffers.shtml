@@ -1,0 +1,210 @@
+<style type="text/css">
+<!--
+.offer {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+.offert_title {
+	font-size: 14px;
+}
+.table_title {
+	background-color: #9C0;
+	font-size: 14px;
+	font-weight: bold;
+}
+.position {
+	font-size: 16px;
+}
+.position_img {
+	margin-right: auto;
+	margin-left: auto;
+}
+td {
+	background-color: #FFF;
+	font-size: 12px;
+}
+th {
+	font-size: 12px;
+}
+
+-->
+</style>
+
+[#SingleToolbar#]
+<!-- BEGIN container -->
+<table width="700" border="0" align="center" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><!--ET_BEGIN blank-->
+		[#blank#]
+	<!--ET_END blank-->
+</td>
+  </tr>
+   <tr>
+    <td>&nbsp;</td>
+  </tr>
+   <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+    <table width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center"><div class="offer">ОФЕРТА</div>
+   	</td>
+  </tr>
+   <tr>
+    <td align="center">[#numb#]</td>
+  </tr>
+  <tr>
+    <td align="center"><div class="offert_title"> [#title#] </div></td>
+  </tr>
+   <tr>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><table width="700" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>До: <strong>[#cname#]</strong></td>
+        <td align="right"> Факс: <strong>[#fax#]</strong></td>
+      </tr>
+      <tr>
+        <td> На вниманието на:<strong> [#pname#]</strong></td>
+        <td align="right"> Телефон: <strong>[#tel#], [#mtel#]</strong></td>
+      </tr>
+      <tr>
+        <td> Дата: <strong>[#dateoffer#] г.</strong></td>
+        <td align="right"> Е-майл: <strong>[#email#], [#pemail#]</strong></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td align="right"> Адрес: <strong>[#place#], [#caddress#]</strong></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">
+    <table width="700"  bgcolor="#E0E0E0" cellspacing="1" cellpadding="3">
+      <tr>
+      	<th>№</th>
+        <th width="460">Описание</th>
+        <th width="50" align="center">Количество</th>
+        <th width="80" align="center">Цена лв.</th>
+        <th width="80" align="center">Общо лв.</th>
+      <tr>
+        <td width="30" align="center">1</td>
+        <td width="460">[#position1#] <br />[#desc1#]<!--ET_BEGIN image--><br>[#image#]<!--ET_END image--></td>
+        <td width="50" align="center" valign="top"><!--ET_BEGIN amount1-->[#amount1#]<!--ET_END amount1--></td>
+        <td width="80" align="center" valign="top"><!--ET_BEGIN cost1-->[#cost1#]<!--ET_END cost1--></td>
+        <td width="80" align="center" valign="top"><!--ET_BEGIN all1-->[#all1#]<!--ET_END all1--></td>
+      </tr>
+       <!--ET_BEGIN position2-->
+      <tr>
+         <td width="30" align="center">2</td>
+        <td width="460">[#position2#]<br />[#desc2#] <!--ET_BEGIN image2--><br>[#image2#]<!--ET_END image2--></td>
+        <td width="50" align="center" valign="top"><!--ET_BEGIN amount2-->[#amount2#]<!--ET_END amount2--></td>
+        <td width="80" align="center" valign="top"><!--ET_BEGIN cost2-->[#cost2#]<!--ET_END cost2--></td>
+        <td width="80" align="center" valign="top"><!--ET_BEGIN all2-->[#all2#]<!--ET_END all2--></td>
+      </tr>
+       <!--ET_END position2-->
+      <!--ET_BEGIN position3-->
+      <tr>
+         <td width="30" align="center">3</td>
+        <td width="460">[#position3#] <br />[#desc3#]<!--ET_BEGIN image3--><br>[#image3#]<!--ET_END image3--></td>
+        <td width="50" align="center" valign="top"><!--ET_BEGIN amount3-->[#amount3#]<!--ET_END amount3--></td>
+        <td width="80" align="center" valign="top"><!--ET_BEGIN cost3-->[#cost3#]<!--ET_END cost3--></td>
+        <td width="80" align="center" valign="top"><!--ET_BEGIN all3-->[#all3#]<!--ET_END all3--></td>
+      </tr>
+       <!--ET_END position3-->
+       <!--ET_BEGIN position4-->
+      <tr>
+         <td width="30" align="center">4</td>
+        <td width="460">[#position4#] <br />[#desc4#]<!--ET_BEGIN image4--><br>[#image4#]<!--ET_END image4--></td>
+        <td width="50" align="center" valign="top"><!--ET_BEGIN amount4-->[#amount4#]<!--ET_END amount4--></td>
+        <td width="80" align="center" valign="top"><!--ET_BEGIN cost4-->[#cost4#]<!--ET_END cost4--></td>
+        <td width="80" align="center" valign="top"><!--ET_BEGIN all4-->[#all4#]<!--ET_END all4--></td>
+      </tr>
+       <!--ET_END position4-->
+    </table></td>
+  </tr>
+  <tr>
+    <td align="right"><table width="300" border="0" cellspacing="0" cellpadding="3">
+  <tr>
+    <td width="220" align="right"> Обща сума (без ДДС):</td>
+    <td width="80" align="right"><strong>[#totalSum#] лв.</strong></td>
+  </tr>
+  <!--ET_BEGIN dds-->
+  <tr>
+    <td width="200" align="right">ДДС:</td>
+    <td width="80" align="right"><strong>[#dds#] лв.</strong></td>
+  </tr>
+  
+  <tr>
+    <td width="200" align="right">Общо:</td>
+    <td width="80" align="right"><strong>[#all#] лв.</strong></td>
+  </tr>
+ <!--ET_END dds-->
+</table></td>
+  </tr>
+ 
+</table>
+
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+  
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+   <tr>
+    <td colspan="2">Други условия:</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В сила са Общите условия по договорите за изработка на Седем ЕООД;</td>
+  </tr>
+   <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Плащане: </td>
+  </tr>
+   <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Срок за изработка:&nbsp;&nbsp; до [#term#] дни след потвърждаване на офертата;</td>
+  </tr>
+   <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Гаранция:&nbsp;&nbsp;[#warranty#] м.;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">[#dateoffer#]г.</td>
+  </tr>
+  <tr>
+    <td align="left">Велико Търново</td>
+    <td align="right">С уважение: &quot;Седем&quot;ЕООД&quot;</td>
+  </tr>
+</table>
+<!-- END container -->
+
+
+        
+        

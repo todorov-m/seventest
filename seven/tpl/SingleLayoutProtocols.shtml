@@ -1,0 +1,86 @@
+[#SingleToolbar#]
+<!-- BEGIN container -->
+<div class='document'>
+	
+	<!--ET_BEGIN blank-->
+		[#blank#]
+	<!--ET_END blank-->
+
+	<table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2"  style="font-size:18px" align="center"><strong>ПРИЕМО-ПРЕДАВАТЕЛЕН ПРОТОКОЛ</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Днес, на [#today#]г. в [#place#] между:</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">[#cname#] с ЕИК: [#ceik#] и адрес: [#caddress#]</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">и</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&quot;СЕДЕМ&quot; ЕООД с ЕИК: 104622449 и с адрес: гр. Велико Търново, ул. &quot;Любен Каравелов&quot; 38</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><strong>се състави настоящият Приемо-предавателен протокол:</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&quot;Седем&quot; ЕООД  <!-- ET_BEGIN ACC1 -->[#ACC1#]<!-- ET_END ACC1 -->  <!-- ET_BEGIN ACC2 -->[#ACC2#] <!-- ET_END ACC2 -->на [#cname#] [#product#]</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Настоящищт приемо-предавателен протокол се състави в два еднообрази екземпляра - по един за предаващия и един за приемащия.</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<strong>ПРЕДАЛ:</strong></td>
+    <td>&nbsp;&nbsp;&nbsp;<strong>ПРИЕЛ:</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/............................................/</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/............................................/</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  </table>
+
+</div>
+<!-- END container -->
+     
+<div style='clear: both;'></div>

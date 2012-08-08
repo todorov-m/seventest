@@ -1,0 +1,104 @@
+[#SingleToolbar#]
+<!-- BEGIN container -->
+<style type="text/css">
+<!--
+.offer {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+.offert_title {
+	font-size: 14px;
+}
+.table_title {
+	background-color: #9C0;
+	font-size: 14px;
+	font-weight: bold;
+}
+.position {
+	font-size: 16px;
+}
+.position_img {
+	margin-right: auto;
+	margin-left: auto;
+}
+-->
+</style>
+<div class='document'>
+	
+	<!--ET_BEGIN blank-->
+		[#blank#]
+	<!--ET_END blank-->
+
+	
+	<!--ET_BEGIN body--> 
+    <table width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center"><div class="offer">ЗАДАНИЕ</div></td>
+  </tr>
+   <tr>
+    <td align="center">[#numb#]</td>
+  </tr>
+   <tr>
+    <td align="center">[#title#]</td>
+  </tr>
+   <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>от <!-- ET_BEGIN office -->[#office#]<!-- ET_END office --> 
+   			<!-- ET_BEGIN agent -->[#agent#]<!-- ET_END agent -->
+            <!-- ET_BEGIN other -->[#other#]<!-- ET_END other --></td>
+  </tr>
+  <tr>
+    <td>за <!-- ET_BEGIN project -->   <strong>[#project#] / </strong>      <!-- ET_END project -->
+    		<!-- ET_BEGIN producet -->   <strong>[#produce#] / </strong>      <!-- ET_END produce -->
+            <!-- ET_BEGIN assembly -->   <strong>[#assembly#] / </strong>      <!-- ET_END assembly -->
+             <!-- ET_BEGIN supply -->   <strong>[#supply#]</strong>      <!-- ET_END supply --></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+   <tr>
+    <td>срок за изработка: <strong>[#termp#]</strong> дни</td>
+  </tr>
+   <tr>
+    <td>срок за монтаж:<strong> [#terma#]</strong> дни</td>
+  </tr>
+   <tr>
+    <td>&nbsp;</td>
+  </tr>
+   <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Пояснение: [#comments#]</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <!-- ET_BEGIN projectfile -->
+  <tr>
+    <td>работен файл на проекта: <a href="[#orderfile#]" target="_blank">Работен файл</a></td>
+  </tr>
+  <!-- ET_END projectfile -->
+  <tr>
+    <td>коментар към файла: [#commentp#]</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>за изпълнение от:<strong> [#sharedUsers#]</strong></td>
+  </tr>
+  </table>
+
+    
+    
+	
+	<!--ET_END body--> 
+ 
+
+<!-- END container -->
+     
+<div style='clear: both;'></div>
